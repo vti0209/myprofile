@@ -289,9 +289,13 @@
       targetSection.classList.add('active-section');
       
       // Update Nav active state
-      document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
+      document.querySelectorAll('.navmenu a.active, .mobile-bottom-nav .nav-item.active').forEach(link => link.classList.remove('active'));
+      
       const activeLink = document.querySelector(`.navmenu a[href*="${targetId}"]`);
       if (activeLink) activeLink.classList.add('active');
+
+      const mobileActiveLink = document.querySelector(`.mobile-bottom-nav a[href*="${targetId}"]`);
+      if (mobileActiveLink) mobileActiveLink.classList.add('active');
 
       // Scroll to top of the new section/page
       window.scrollTo(0, 0);
