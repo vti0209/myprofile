@@ -218,10 +218,11 @@ h6 {
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-size: 14px;
-  padding: 8px 25px;
-  margin: 0 0 0 30px;
-  border-radius: 50px;
+  white-space: nowrap;
+  font-size: 13px;
+  padding: 7px 16px;
+  margin: 0 0 0 16px;
+  border-radius: 999px;
   transition: 0.3s;
 }
 
@@ -238,8 +239,9 @@ h6 {
 
   .header .btn-getstarted {
     order: 2;
-    margin: 0 15px 0 0;
-    padding: 6px 15px;
+    margin: 0 10px 0 0;
+    padding: 6px 12px;
+    font-size: 12px;
   }
 
   .header .navmenu {
@@ -293,8 +295,8 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    padding: 18px 15px;
-    font-size: 16px;
+    padding: 12px 12px;
+    font-size: 15px;
     font-family: var(--nav-font);
     font-weight: 600;
     display: flex;
@@ -747,8 +749,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
-  scroll-margin-top: 90px;
+  padding: 56px 0;
+  scroll-margin-top: 100px;
   overflow: clip;
 }
 
@@ -756,7 +758,7 @@ section,
 
   section,
   .section {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 90px;
   }
 }
 

@@ -1,9 +1,9 @@
 export default {
   name: "Hồ Văn Tiết",
   role: "IT Student & Frontend Developer",
-  avatar: "assets/images/VanTiet.jpg", // We'll move it to public/assets/images
-  logo: "assets/images/logo.png",
-  cvUrl: "assets/images/Ho Van Tiet_Front-end Developer Intern_CV.pdf",
+  avatar: "assets/img/VanTiet.jpg",
+  logo: "assets/img/profile/logo.png",
+  cvUrl: "assets/img/profile/Ho Van Tiet_Front-end Developer Intern_CV.pdf",
   stats: {
     projects: "3",
     years: "2+",

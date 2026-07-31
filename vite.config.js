@@ -1,22 +1,24 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig({
-  root: 'public',
+  root: '.',
   build: {
-    outDir: '../dist',
+    outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'public/index.html'),
-        notFound: resolve(__dirname, 'public/404.html')
+        main: resolve(__dirname, 'index.html'),
+        notFound: resolve(__dirname, '404.html')
       }
     }
   },
   server: {
     fs: {
-      // Allow serving files from one level up (to access /src)
-      allow: ['..']
+      allow: ['.']
     }
   }
 });

@@ -40,7 +40,7 @@ export function AboutComponent(profile, lang) {
           <div class="profile-card">
             <div class="profile-header">
               <div class="profile-avatar">
-                <img src="assets/images/VanTiet.jpg" class="img-fluid" alt="${profile.name}">
+                <img src="${profile.avatar}" class="img-fluid" alt="${profile.name}">
                 <div class="status-indicator"></div>
               </div>
               <h3>${profile.name}</h3>

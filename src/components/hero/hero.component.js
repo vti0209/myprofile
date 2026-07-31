@@ -8,7 +8,7 @@ export function HeroComponent(profile, socials, lang) {
   `).join('');
 
   return `
-    <img src="assets/images/add.jpg" alt="" data-aos="fade-in">
+    <img src="assets/img/profile/add.jpg" alt="" data-aos="fade-in">
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-center">
