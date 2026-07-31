@@ -78,5 +78,85 @@ export default [
         { icon: "bi-shield-lock-fill", label: "JWT Auth" }
       ]
     }
+  },
+  {
+    id: "vtschool",
+    title: "vTSchool",
+    category: "filter-web",
+    image: "assets/img/portfolio/nongsannuirung.svg",
+    github: "https://github.com/vti0209/vTSchool-AI-Career-Guidance.git",
+    demo: "https://github.com/vti0209/vTSchool-AI-Career-Guidance.git",
+    tech: ["Laravel", "PHP", "MySQL", "Tailwind", "Vite"],
+    year: 2025,
+    categoryVi: "AI & Giáo dục",
+    categoryEn: "AI & Education",
+    titleVi: "vTSchool - Nền tảng AI tư vấn hướng nghiệp",
+    titleEn: "vTSchool - AI Career Guidance Platform",
+    descriptionVi: "Nền tảng web hiện đại giúp học sinh THPT tra cứu ngành học, so sánh trường đại học và nhận tư vấn nghề nghiệp bằng AI.",
+    descriptionEn: "A modern web platform helping high school students explore majors, compare universities, and receive AI-powered career guidance.",
+    hasRichDetails: true,
+    details: {
+      title: "vTSchool - AI Career Guidance Platform",
+      demoText: "Xem dự án trên GitHub",
+      showcaseImages: [
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg"
+      ],
+      overview: {
+        vi: "<strong>vTSchool</strong> là nền tảng AI tư vấn hướng nghiệp và chọn trường đại học được xây dựng bằng Laravel 12, Tailwind CSS v4 và Vite. Hệ thống giúp học sinh định hướng nghề nghiệp dựa trên điểm thi THPT, sở thích cá nhân và dữ liệu ngành học, trường học tại Việt Nam.",
+        en: "<strong>vTSchool</strong> is an AI-powered career guidance and university selection platform built with Laravel 12, Tailwind CSS v4, and Vite. It helps students choose career paths based on exam scores, personal interests, and detailed major/university data in Vietnam."
+      },
+      targetUsers: {
+        titleVi: "Đối tượng người dùng",
+        titleEn: "Target Users",
+        items: [
+          { icon: "bi-mortarboard-fill", vi: "Học sinh THPT đang phân vân nghề nghiệp và trường học", en: "High school students unsure about careers and universities" },
+          { icon: "bi-person-badge-fill", vi: "Phụ huynh và cố vấn cần công cụ hỗ trợ định hướng", en: "Parents and counselors seeking guidance tools" },
+          { icon: "bi-shield-lock-fill", vi: "Quản trị viên muốn quản lý dữ liệu ngành, trường và phiên tư vấn AI", en: "Administrators managing majors, universities, and AI consultation sessions" }
+        ]
+      },
+      keyFeatures: {
+        titleVi: "Tính năng chính",
+        titleEn: "Key Features",
+        items: [
+          { icon: "bi-chat-dots-fill", vi: "AI Chat Advisor tư vấn nghề nghiệp và chọn trường theo ngữ cảnh", en: "AI Chat Advisor for career and university recommendations" },
+          { icon: "bi-book-half", vi: "Quản lý ngành học với thông tin lương, tỷ lệ việc làm và trường tốt", en: "Manage majors with salary, employability, and top university data" },
+          { icon: "bi-buildings-fill", vi: "Thư mục trường đại học với điểm chuẩn, học phí và thông tin chi tiết", en: "University directory with entrance scores, tuition, and detailed info" },
+          { icon: "bi-graph-up-arrow", vi: "Dashboard quản trị thống kê người dùng, ngành học và phiên tư vấn", en: "Admin dashboard with user, major, and consultation statistics" },
+          { icon: "bi-translate", vi: "Hỗ trợ đa ngôn ngữ Tiếng Việt và Tiếng Anh", en: "Supports Vietnamese and English multilingual experience" },
+          { icon: "bi-stars", vi: "Giao diện hiện đại theo phong cách dark mode và glassmorphism", en: "Modern UI with dark mode and glassmorphism style" }
+        ]
+      },
+      userFlow: {
+        titleVi: "Luồng người dùng",
+        titleEn: "User Flow",
+        flowVi: "Đăng nhập → Nhập thông tin → Nhận tư vấn AI → Xem ngành & trường → Lên lộ trình học tập",
+        flowEn: "Login → Enter information → Receive AI guidance → View majors & universities → Build study plan",
+        noteVi: "— Quy trình được thiết kế để học sinh có thể hiểu rõ và đưa ra quyết định nhanh hơn.",
+        noteEn: "— The flow is designed to help students understand options and make decisions more confidently."
+      },
+      uiUxDesign: {
+        titleVi: "Thiết kế giao diện & UI/UX",
+        titleEn: "Interface Design & UI/UX",
+        leftItems: [
+          { icon: "bi-brightness-high", vi: "Giao diện tối và kính trong suốt tạo cảm giác hiện đại", en: "Dark and glassy interface for a futuristic look" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng cho chat, trường học và ngành học", en: "Clear layout for chat, universities, and majors" },
+          { icon: "bi-phone", vi: "Tối ưu trải nghiệm trên cả desktop và mobile", en: "Optimized experience on desktop and mobile" }
+        ],
+        rightItems: [
+          { icon: "bi-type", vi: "Typography rõ ràng và dễ đọc, phù hợp học sinh", en: "Readable and student-friendly typography" },
+          { icon: "bi-palette-fill", vi: "Màu sắc hiện đại, nhẹ nhàng và công nghệ cao", en: "Modern, calm, and tech-inspired palettes" },
+          { icon: "bi-magic", vi: "Hiệu ứng mượt mà, cảm giác tương tác cao", en: "Smooth animations and polished interactions" }
+        ]
+      },
+      tools: [
+        { icon: "bi-laravel", label: "Laravel 12" },
+        { icon: "bi-database-fill", label: "MySQL / SQLite" },
+        { icon: "bi-bootstrap-reboot", label: "Tailwind CSS v4" },
+        { icon: "bi-cpu", label: "Vite 7" },
+        { icon: "bi-chat-dots-fill", label: "AI Advisor" }
+      ]
+    }
   }
 ];
