@@ -158,5 +158,85 @@ export default [
         { icon: "bi-chat-dots-fill", label: "AI Advisor" }
       ]
     }
+  },
+  {
+    id: "eventapp",
+    title: "Event App",
+    category: "filter-mobile",
+    image: "assets/img/portfolio/nongsannuirung.svg",
+    github: "https://github.com/vti0209/Event_app.git",
+    demo: "https://github.com/vti0209/Event_app.git",
+    tech: ["Java", "XML", "SQLite", "Android Studio"],
+    year: 2025,
+    categoryVi: "Ứng dụng di động",
+    categoryEn: "Mobile App",
+    titleVi: "Event App - Ứng dụng quản lý sự kiện Android",
+    titleEn: "Event App - Android Event Management App",
+    descriptionVi: "Ứng dụng Android giúp người dùng đăng ký, đăng nhập, quản lý sự kiện, ghi chú và theo dõi các hoạt động sự kiện cục bộ bằng SQLite.",
+    descriptionEn: "An Android app that lets users register, log in, manage events, add notes, and track local event activities using SQLite.",
+    hasRichDetails: true,
+    details: {
+      title: "Event App - Android Event Management",
+      demoText: "Xem dự án trên GitHub",
+      showcaseImages: [
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg"
+      ],
+      overview: {
+        vi: "<strong>Event App</strong> là ứng dụng Android đơn giản được xây dựng để quản lý và hiển thị thông tin sự kiện. Ứng dụng hỗ trợ các thao tác CRUD cơ bản và lưu trữ dữ liệu cục bộ bằng SQLite, phù hợp cho việc học tập về lập trình di động.",
+        en: "<strong>Event App</strong> is a simple Android application designed to manage and display event information. It supports basic CRUD operations and local data storage with SQLite, making it suitable for learning Android development."
+      },
+      targetUsers: {
+        titleVi: "Đối tượng người dùng",
+        titleEn: "Target Users",
+        items: [
+          { icon: "bi-person-fill", vi: "Người dùng muốn quản lý lịch trình và sự kiện cá nhân", en: "Users wanting to manage personal schedules and events" },
+          { icon: "bi-phone-fill", vi: "Sinh viên học lập trình Android và cần một ứng dụng mẫu CRUD", en: "Students learning Android development and needing a CRUD sample app" },
+          { icon: "bi-shield-lock-fill", vi: "Người dùng cần đăng nhập, hồ sơ và ghi chú riêng cho từng sự kiện", en: "Users needing accounts, profile editing, and per-event notes" }
+        ]
+      },
+      keyFeatures: {
+        titleVi: "Tính năng chính",
+        titleEn: "Key Features",
+        items: [
+          { icon: "bi-person-plus-fill", vi: "Đăng ký, đăng nhập, đăng xuất và chỉnh sửa hồ sơ", en: "Register, login, logout, and edit profile" },
+          { icon: "bi-calendar-event-fill", vi: "Xem tổng quan sự kiện, sự kiện sắp tới và đã qua", en: "View event overview, upcoming events, and past events" },
+          { icon: "bi-pencil-square", vi: "Thêm, cập nhật, xóa và theo dõi sự kiện", en: "Add, update, delete, and track events" },
+          { icon: "bi-journal-text", vi: "Thêm ghi chú cho từng sự kiện", en: "Add notes for each event" },
+          { icon: "bi-bell-fill", vi: "Thông báo cho các hành động người dùng", en: "Notifications for user actions" },
+          { icon: "bi-database-fill", vi: "Lưu trữ dữ liệu cục bộ bằng SQLite", en: "Store data locally using SQLite" }
+        ]
+      },
+      userFlow: {
+        titleVi: "Luồng người dùng",
+        titleEn: "User Flow",
+        flowVi: "Đăng nhập → Xem tổng quan → Quản lý sự kiện → Thêm ghi chú → Theo dõi thông báo",
+        flowEn: "Login → View overview → Manage events → Add notes → Track notifications",
+        noteVi: "— Ứng dụng được thiết kế để thao tác nhanh, dễ hiểu và phù hợp cho người mới học Android.",
+        noteEn: "— The app is designed to be simple, intuitive, and beginner-friendly for Android learners."
+      },
+      uiUxDesign: {
+        titleVi: "Thiết kế giao diện & UI/UX",
+        titleEn: "Interface Design & UI/UX",
+        leftItems: [
+          { icon: "bi-phone", vi: "Giao diện Android đơn giản, rõ ràng và dễ thao tác", en: "Simple, clear, and easy-to-use Android interface" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục phù hợp cho màn hình danh sách sự kiện và chi tiết", en: "Layout suited for event lists and detail screens" },
+          { icon: "bi-lightning-charge-fill", vi: "Tập trung vào trải nghiệm người dùng cơ bản và hiệu quả", en: "Focused on efficient and practical user experience" }
+        ],
+        rightItems: [
+          { icon: "bi-type", vi: "Typography rõ ràng, dễ đọc trên thiết bị di động", en: "Readable typography on mobile devices" },
+          { icon: "bi-palette-fill", vi: "Màu sắc nhẹ nhàng, phù hợp trải nghiệm quản lý thông tin", en: "Soft colors suitable for event management" },
+          { icon: "bi-magic", vi: "Tương tác cơ bản nhưng đủ tốt cho mục tiêu học tập", en: "Basic interactions that are sufficient for learning goals" }
+        ]
+      },
+      tools: [
+        { icon: "bi-android2", label: "Android Studio" },
+        { icon: "bi-code-square", label: "Java" },
+        { icon: "bi-file-earmark-code", label: "XML Layout" },
+        { icon: "bi-database-fill", label: "SQLite" },
+        { icon: "bi-phone-fill", label: "Mobile UI" }
+      ]
+    }
   }
 ];
