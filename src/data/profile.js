@@ -5,7 +5,7 @@ export default {
   logo: "assets/img/profile/logo.png",
   cvUrl: "assets/img/profile/Ho Van Tiet_Front-end Developer Intern_CV.pdf",
   stats: {
-    projects: "3",
+    projects: "1",
     years: "2+",
     skills: "11"
   },

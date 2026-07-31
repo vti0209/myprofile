@@ -1,0 +1,31 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="#F7F2E8"/>
+  <rect x="60" y="60" width="1080" height="680" rx="28" fill="#EAF4E8"/>
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#FDFCF7"/>
+  <path d="M150 580C250 470 330 410 430 390C530 370 620 430 720 460C830 495 940 495 1040 440V650H150V580Z" fill="#2E6B3C"/>
+  <path d="M220 580L310 430L400 580H220Z" fill="#3E8A4C"/>
+  <path d="M430 580L520 340L610 580H430Z" fill="#3C7A3F"/>
+  <path d="M680 580L770 320L860 580H680Z" fill="#2D6732"/>
+  <path d="M180 285C200 220 260 180 320 185C376 190 414 228 430 278C446 228 485 190 542 185C600 180 654 220 674 285" stroke="#6E4F2B" stroke-width="18" stroke-linecap="round"/>
+  <rect x="180" y="220" width="140" height="110" rx="18" fill="#FFF3D0"/>
+  <rect x="190" y="230" width="120" height="90" rx="14" fill="#E5B95D"/>
+  <rect x="196" y="238" width="108" height="18" rx="9" fill="#B37A24"/>
+  <rect x="196" y="264" width="108" height="18" rx="9" fill="#D89E34"/>
+  <rect x="196" y="290" width="88" height="16" rx="8" fill="#A86E1D"/>
+  <rect x="750" y="190" width="220" height="140" rx="24" fill="#F8E8C2"/>
+  <rect x="770" y="210" width="180" height="100" rx="14" fill="#FFFFFF"/>
+  <circle cx="820" cy="260" r="34" fill="#6F8F3A"/>
+  <path d="M820 227C838 227 852 241 852 260C852 279 838 293 820 293C802 293 788 279 788 260C788 241 802 227 820 227Z" fill="#CFA12D"/>
+  <path d="M790 230C790 230 770 255 770 276C770 297 788 314 810 314H830C852 314 870 297 870 276C870 255 850 230 850 230H790Z" fill="#A9C24E"/>
+  <rect x="220" y="600" width="240" height="90" rx="20" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="4"/>
+  <rect x="245" y="625" width="110" height="14" rx="7" fill="#2E6B3C"/>
+  <rect x="245" y="648" width="90" height="12" rx="6" fill="#D7B36A"/>
+  <rect x="500" y="600" width="300" height="92" rx="20" fill="#FFFFFF" stroke="#DEDEDE" stroke-width="4"/>
+  <rect x="528" y="625" width="120" height="12" rx="6" fill="#2E6B3C"/>
+  <rect x="528" y="646" width="160" height="12" rx="6" fill="#D7B36A"/>
+  <rect x="840" y="600" width="140" height="92" rx="20" fill="#2E6B3C"/>
+  <path d="M900 618L925 650H875L900 618Z" fill="#F7F2E8"/>
+  <rect x="880" y="626" width="40" height="26" rx="6" fill="#F7F2E8"/>
+  <text x="150" y="150" fill="#1F4D27" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Nông Sản Núi Rừng</text>
+  <text x="150" y="194" fill="#6B4E2D" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">Thảo dược quý • Đặc sản bản địa • Mua sắm trực tuyến</text>
+</svg>

@@ -1,154 +1,82 @@
 export default [
   {
-    id: "digifood",
-    title: "DigiFood App",
-    category: "filter-design",
-    image: "assets/img/portfolio/portfolio-3.png",
-    github: "#",
-    demo: "https://www.figma.com/design/fNqHlXTE24477HqQKE99eH/Food-ordering-app--Ho-Van-Tiet-?m=auto&t=EDQkh37XDP1oo2ZO-1",
-    tech: ["Figma", "UX/UI"],
-    year: 2024,
-    categoryVi: "Thiết kế UI/UX",
-    categoryEn: "UI/UX Design",
-    descriptionVi: "Thiết kế giao diện ứng dụng giao đồ ăn tối ưu hóa trải nghiệm.",
-    descriptionEn: "Food delivery app UI design optimized for experience.",
+    id: "nongsannuirung",
+    title: "Nông sản núi rừng",
+    category: "filter-web",
+    image: "assets/img/portfolio/nongsannuirung.svg",
+    github: "https://github.com/vti0209/dacsannuirungweb.git",
+    demo: "https://github.com/vti0209/dacsannuirungweb.git",
+    tech: ["PHP", "MySQL", "React", "Tailwind"],
+    year: 2025,
+    categoryVi: "Thương mại điện tử",
+    categoryEn: "E-Commerce",
+    titleVi: "Nông Sản Núi Rừng & Thảo Dược Quý",
+    titleEn: "Mountain Specialties & Herbs E-Commerce",
+    descriptionVi: "Hệ thống cửa hàng thương mại điện tử chuyên cung cấp sản vật thiên nhiên, đặc sản vùng miền và thảo dược quý Tây Bắc & Tây Nguyên.",
+    descriptionEn: "An e-commerce platform specialized in natural products, regional specialties, and precious herbs from Northwest and Central Highlands regions.",
     hasRichDetails: true,
     details: {
-      title: "DigiFood",
-      demoText: "Live Demo (Figma)",
+      title: "Nông Sản Núi Rừng & Thảo Dược Quý",
+      demoText: "Xem dự án trên GitHub",
       showcaseImages: [
-        "assets/img/portfolio/portfolio-3.png",
-        "assets/img/portfolio/portfolio-3.png",
-        "assets/img/portfolio/portfolio-3.png"
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg",
+        "assets/img/portfolio/nongsannuirung.svg"
       ],
       overview: {
-        vi: "<strong>DigiFood</strong> là dự án thiết kế ứng dụng đặt đồ ăn trên nền tảng mobile, được xây dựng bằng Figma. Dự án tập trung tối ưu trải nghiệm người dùng từ lúc mở ứng dụng cho đến khi hoàn tất đơn hàng.<br><br>Mục tiêu chính là tạo ra một quy trình đặt món nhanh, rõ ràng và dễ sử dụng, giúp người dùng tiết kiệm thời gian và thao tác. Giao diện mang phong cách hiện đại, trực quan và tối ưu tương tác.",
-        en: "<strong>DigiFood</strong> is a food ordering mobile app design project built with Figma. The project focuses on optimizing user experience from opening the app to completing the order.<br><br>The main goal is to create a quick, clear, and easy-to-use ordering process, saving users time and effort. The interface is modern, intuitive, and interactive."
+        vi: "<strong>Nông Sản Núi Rừng & Thảo Dược Quý</strong> là hệ thống thương mại điện tử chuyên về sản vật thiên nhiên, đặc sản vùng miền và thảo dược quý. Dự án được xây dựng theo kiến trúc tách biệt giữa Backend API và Frontend SPA, mang lại hiệu năng cao, trải nghiệm hiện đại và bảo mật tốt.",
+        en: "<strong>Mountain Specialties & Herbs E-Commerce</strong> is an e-commerce system focused on natural products, regional specialties, and precious herbs. The project is built with a separated Backend API and Frontend SPA architecture, delivering high performance, modern UX, and strong security."
       },
       targetUsers: {
         titleVi: "Đối tượng người dùng",
         titleEn: "Target Users",
         items: [
-          {
-            icon: "bi-mortarboard-fill",
-            vi: "Sinh viên và người trẻ (18–25 tuổi) yêu thích công nghệ",
-            en: "Students and young people (18–25 years old) who love technology"
-          },
-          {
-            icon: "bi-lightning-charge-fill",
-            vi: "Người bận rộn, cần đặt đồ ăn nhanh chóng, tiện lợi",
-            en: "Busy people who need quick, convenient food ordering"
-          },
-          {
-            icon: "bi-emoji-smile",
-            vi: "Người ưu tiên trải nghiệm đơn giản, dễ hiểu và tối giản",
-            en: "People prioritizing simple, easy-to-understand, and minimalist experiences"
-          }
+          { icon: "bi-tree-fill", vi: "Khách hàng quan tâm đến sản phẩm tự nhiên, đặc sản và thảo dược", en: "Customers interested in natural products, specialties, and herbs" },
+          { icon: "bi-shop-window", vi: "Cửa hàng và doanh nghiệp bán hàng trực tuyến", en: "Stores and businesses selling online" },
+          { icon: "bi-shield-lock-fill", vi: "Quản trị viên cần hệ thống quản lý sản phẩm, đơn hàng và người dùng", en: "Administrators managing products, orders, and users" }
         ]
       },
       keyFeatures: {
-        titleVi: "Chức năng chính",
+        titleVi: "Tính năng chính",
         titleEn: "Key Features",
         items: [
-          { icon: "bi-key-fill", vi: "Đăng nhập & đăng ký tài khoản nhanh chóng", en: "Quick login & registration" },
-          { icon: "bi-house-door-fill", vi: "Trang chủ hiển thị nhà hàng & món ăn gợi ý", en: "Home page displaying recommended restaurants & dishes" },
-          { icon: "bi-search-heart-fill", vi: "Tìm kiếm và lọc món ăn theo danh mục", en: "Search and filter dishes by category" },
-          { icon: "bi-card-text", vi: "Xem chi tiết món ăn, đánh giá và tùy chọn", en: "View dish details, reviews, and options" },
-          { icon: "bi-cart-fill", vi: "Giỏ hàng thông minh, dễ chỉnh sửa số lượng", en: "Smart shopping cart, easy to edit quantities" },
-          { icon: "bi-credit-card-2-front-fill", vi: "Thanh toán đa phương thức, theo dõi đơn hàng real-time", en: "Multi-method payment, real-time order tracking" }
+          { icon: "bi-key-fill", vi: "Xác thực bằng Bearer Token và phân quyền Admin", en: "Bearer Token authentication and Admin authorization" },
+          { icon: "bi-box-seam", vi: "Quản lý danh mục, sản phẩm, đơn hàng và đánh giá", en: "Manage categories, products, orders, and reviews" },
+          { icon: "bi-search-heart-fill", vi: "Tìm kiếm và lọc sản phẩm theo danh mục", en: "Search and filter products by category" },
+          { icon: "bi-cart-fill", vi: "Giỏ hàng và quy trình đặt hàng thông minh", en: "Cart and smart checkout flow" },
+          { icon: "bi-image-fill", vi: "Tải ảnh sản phẩm lên server cục bộ", en: "Upload product images to local server" },
+          { icon: "bi-speedometer2", vi: "Frontend React SPA nhanh, tối ưu và hiện đại", en: "Fast, optimized, and modern React SPA frontend" }
         ]
       },
       userFlow: {
         titleVi: "Luồng người dùng",
         titleEn: "User Flow",
-        flowVi: "Mở ứng dụng → Đăng nhập → Trang chủ → Chọn món → Thêm vào giỏ → Thanh toán → Theo dõi đơn hàng",
-        flowEn: "Open App → Login → Homepage → Select Dish → Add to Cart → Payment → Track Order",
-        noteVi: "— Mọi thao tác đều được tinh chỉnh để đạt hiệu suất tối đa với số bước tối thiểu, tối ưu trải nghiệm di động.",
-        noteEn: "— Every action is fine-tuned for maximum performance with minimum steps, optimizing mobile experience."
+        flowVi: "Mở trang → Tìm sản phẩm → Xem chi tiết → Thêm vào giỏ → Đặt hàng → Theo dõi đơn hàng",
+        flowEn: "Open store → Search product → View details → Add to cart → Place order → Track order",
+        noteVi: "— Hệ thống được thiết kế để khách hàng có trải nghiệm mua sắm mượt mà, rõ ràng và tin cậy.",
+        noteEn: "— The system is designed to provide a smooth, clear, and reliable shopping experience."
       },
       uiUxDesign: {
         titleVi: "Thiết kế giao diện & UI/UX",
         titleEn: "Interface Design & UI/UX",
         leftItems: [
-          { icon: "bi-phone", vi: "Giao diện tối giản, hiện đại, xu hướng 2025", en: "Minimalist, modern interface, 2025 trends" },
-          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng: tiêu đề – nội dung – điều hướng", en: "Clear layout: heading – content – navigation" },
-          { icon: "bi-hand-index-thumb-fill", vi: "Nút bấm lớn, tối ưu vùng chạm trên mobile", en: "Large buttons, optimized mobile touch zones" }
+          { icon: "bi-tree", vi: "Chủ đạo tone xanh rừng sâu và màu hổ phách ấm áp", en: "Dominant deep forest green and warm amber tones" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng cho storefront và admin dashboard", en: "Clear layout for storefront and admin dashboard" },
+          { icon: "bi-phone", vi: "Tối ưu trải nghiệm trên cả desktop và mobile", en: "Optimized experience on both desktop and mobile" }
         ],
         rightItems: [
-          { icon: "bi-type", vi: "Typography rõ ràng với font Inter, spacing hợp lý", en: "Clear typography with Inter font, proper spacing" },
-          { icon: "bi-palette-fill", vi: "Màu sắc nhất quán: cam ấm áp chủ đạo", en: "Consistent color scheme: warm orange primary" },
-          { icon: "bi-magic", vi: "Micro-interactions & smart animation prototype", en: "Micro-interactions & smart animation prototype" }
+          { icon: "bi-type", vi: "Typography rõ ràng, hiện đại và dễ đọc", en: "Clear, modern, and readable typography" },
+          { icon: "bi-palette-fill", vi: "Thiết kế mang cảm giác tự nhiên, cao cấp và sang trọng", en: "Design feels natural, premium, and elegant" },
+          { icon: "bi-magic", vi: "Tích hợp trải nghiệm dùng thử và tương tác mượt mà", en: "Smooth interactions and polished user experience" }
         ]
       },
       tools: [
-        { icon: "bi-figma", label: "Figma" },
-        { icon: "bi-layout-three-columns", label: "Auto Layout & Components" },
-        { icon: "bi-cpu", label: "Smart Animate" },
-        { icon: "bi-diagram-3", label: "User Flow Mapping" },
-        { icon: "bi-pencil-square", label: "Wireframing & High-fidelity" }
+        { icon: "bi-php", label: "PHP MVC" },
+        { icon: "bi-database-fill", label: "MySQL / PDO" },
+        { icon: "bi-react", label: "React + Vite" },
+        { icon: "bi-tailwind", label: "Tailwind CSS" },
+        { icon: "bi-shield-lock-fill", label: "JWT Auth" }
       ]
     }
-  },
-  {
-    id: "vti-restaurant",
-    title: "VTi Restaurant",
-    category: "filter-web",
-    image: "assets/img/portfolio/portfolio-2.png",
-    github: "https://github.com/vti0209",
-    demo: "#",
-    tech: ["HTML", "CSS", "JS", "JSON"],
-    year: 2024,
-    categoryVi: "Phát triển Web",
-    categoryEn: "Web Development",
-    titleVi: "Nhà Hàng VTi",
-    titleEn: "VTi Restaurant",
-    descriptionVi: "Website đặt món trực tuyến với menu và giỏ hàng thông minh.",
-    descriptionEn: "Online ordering website with smart menu and shopping cart.",
-    hasRichDetails: false
-  },
-  {
-    id: "vti-shop",
-    title: "VTi Shop",
-    category: "filter-web",
-    image: "assets/img/portfolio/portfolio-4.png",
-    github: "https://github.com/vti0209",
-    demo: "#",
-    tech: ["React", "Node.js"],
-    year: 2024,
-    categoryVi: "Thương mại điện tử",
-    categoryEn: "E-Commerce",
-    descriptionVi: "Website bán hàng thời trang với giao diện tối giản và hiện đại.",
-    descriptionEn: "Fashion e-commerce website with minimalist and modern interface.",
-    hasRichDetails: false
-  },
-  {
-    id: "fittrack",
-    title: "FitTrack UI",
-    category: "filter-design",
-    image: "assets/img/portfolio/portfolio-5.png",
-    github: "#",
-    demo: "https://www.figma.com",
-    tech: ["Figma", "UI/UX"],
-    year: 2023,
-    categoryVi: "Thiết kế App",
-    categoryEn: "App Design",
-    descriptionVi: "Giao diện ứng dụng theo dõi sức khỏe và luyện tập thể thao.",
-    descriptionEn: "Health and sports tracking application interface.",
-    hasRichDetails: false
-  },
-  {
-    id: "minimal-blog",
-    title: "Minimal Blog",
-    category: "filter-web",
-    image: "assets/img/portfolio/portfolio-6.png",
-    github: "https://github.com/vti0209",
-    demo: "#",
-    tech: ["Next.js", "Tailwind"],
-    year: 2023,
-    categoryVi: "Website Cá Nhân",
-    categoryEn: "Personal Website",
-    descriptionVi: "Nền tảng blog cá nhân tập trung vào trải nghiệm đọc tối ưu.",
-    descriptionEn: "Personal blog platform focused on optimal reading experience.",
-    hasRichDetails: false
   }
 ];
