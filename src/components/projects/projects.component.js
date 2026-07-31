@@ -6,10 +6,8 @@ export function ProjectsComponent(projects, lang) {
     ? "Dưới đây là một số dự án đã thực hiện trong quá trình học tập và tự học về phát triển website và di động." 
     : "Below are some projects implemented during my studies and self-learning in web and mobile development.";
 
-  const filterAll = isVi ? "Tất cả" : "All";
-  const filterDesign = isVi ? "Thiết kế" : "Design";
   const filterWeb = isVi ? "Website" : "Website";
-  const filterGroup = isVi ? "Nhóm" : "Group";
+  const filterApp = isVi ? "App" : "App";
 
   const ctaTitle = isVi ? "Bạn muốn cộng tác cùng tôi?" : "Want to collaborate with me?";
   const ctaDesc = isVi 
@@ -89,10 +87,8 @@ export function ProjectsComponent(projects, lang) {
 
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
         <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-          <li data-filter="*" class="filter-active" data-vi="Tất cả" data-en="All">${filterAll}</li>
-          <li data-filter=".filter-design" data-vi="Thiết kế" data-en="Design">${filterDesign}</li>
-          <li data-filter=".filter-web" data-vi="Website" data-en="Website">${filterWeb}</li>
-          <li data-filter=".filter-group" data-vi="Nhóm" data-en="Group">${filterGroup}</li>
+          <li data-filter=".filter-web" class="filter-active" data-vi="Website" data-en="Website">${filterWeb}</li>
+          <li data-filter=".filter-app" data-vi="App" data-en="App">${filterApp}</li>
         </ul>
 
         <div class="row gy-3 isotope-container" data-aos="fade-up" data-aos-delay="300">

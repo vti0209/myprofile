@@ -8,8 +8,8 @@ export default [
     demo: "https://github.com/vti0209/dacsannuirungweb.git",
     tech: ["PHP", "MySQL", "React", "Tailwind"],
     year: 2025,
-    categoryVi: "Thương mại điện tử",
-    categoryEn: "E-Commerce",
+    categoryVi: "Website",
+    categoryEn: "Website",
     titleVi: "Nông Sản Núi Rừng & Thảo Dược Quý",
     titleEn: "Mountain Specialties & Herbs E-Commerce",
     descriptionVi: "Hệ thống cửa hàng thương mại điện tử chuyên cung cấp sản vật thiên nhiên, đặc sản vùng miền và thảo dược quý Tây Bắc & Tây Nguyên.",
@@ -83,13 +83,13 @@ export default [
     id: "vtschool",
     title: "vTSchool",
     category: "filter-web",
-    image: "assets/img/portfolio/nongsannuirung.svg",
+    image: "assets/img/portfolio/vtschool.svg",
     github: "https://github.com/vti0209/vTSchool-AI-Career-Guidance.git",
     demo: "https://github.com/vti0209/vTSchool-AI-Career-Guidance.git",
     tech: ["Laravel", "PHP", "MySQL", "Tailwind", "Vite"],
     year: 2025,
-    categoryVi: "AI & Giáo dục",
-    categoryEn: "AI & Education",
+    categoryVi: "Website",
+    categoryEn: "Website",
     titleVi: "vTSchool - Nền tảng AI tư vấn hướng nghiệp",
     titleEn: "vTSchool - AI Career Guidance Platform",
     descriptionVi: "Nền tảng web hiện đại giúp học sinh THPT tra cứu ngành học, so sánh trường đại học và nhận tư vấn nghề nghiệp bằng AI.",
@@ -99,55 +99,55 @@ export default [
       title: "vTSchool - AI Career Guidance Platform",
       demoText: "Xem dự án trên GitHub",
       showcaseImages: [
-        "assets/img/portfolio/nongsannuirung.svg",
-        "assets/img/portfolio/nongsannuirung.svg",
-        "assets/img/portfolio/nongsannuirung.svg"
+        "assets/img/portfolio/vtschool.svg",
+        "assets/img/portfolio/vtschool.svg",
+        "assets/img/portfolio/vtschool.svg"
       ],
       overview: {
-        vi: "<strong>vTSchool</strong> là nền tảng AI tư vấn hướng nghiệp và chọn trường đại học được xây dựng bằng Laravel 12, Tailwind CSS v4 và Vite. Hệ thống giúp học sinh định hướng nghề nghiệp dựa trên điểm thi THPT, sở thích cá nhân và dữ liệu ngành học, trường học tại Việt Nam.",
-        en: "<strong>vTSchool</strong> is an AI-powered career guidance and university selection platform built with Laravel 12, Tailwind CSS v4, and Vite. It helps students choose career paths based on exam scores, personal interests, and detailed major/university data in Vietnam."
+        vi: "<strong>vTSchool</strong> là nền tảng web hỗ trợ học sinh THPT định hướng nghề nghiệp bằng AI. Dự án giúp người dùng tra cứu ngành học, so sánh trường đại học và nhận gợi ý phù hợp dựa trên điểm thi, sở thích và mục tiêu nghề nghiệp.",
+        en: "<strong>vTSchool</strong> is a web platform that helps high school students explore careers with AI support. It enables users to browse majors, compare universities, and receive personalized guidance based on exam scores, interests, and career goals."
       },
       targetUsers: {
         titleVi: "Đối tượng người dùng",
         titleEn: "Target Users",
         items: [
-          { icon: "bi-mortarboard-fill", vi: "Học sinh THPT đang phân vân nghề nghiệp và trường học", en: "High school students unsure about careers and universities" },
-          { icon: "bi-person-badge-fill", vi: "Phụ huynh và cố vấn cần công cụ hỗ trợ định hướng", en: "Parents and counselors seeking guidance tools" },
-          { icon: "bi-shield-lock-fill", vi: "Quản trị viên muốn quản lý dữ liệu ngành, trường và phiên tư vấn AI", en: "Administrators managing majors, universities, and AI consultation sessions" }
+          { icon: "bi-mortarboard-fill", vi: "Học sinh THPT cần định hướng ngành học và trường phù hợp", en: "High school students who need career and university direction" },
+          { icon: "bi-person-badge-fill", vi: "Phụ huynh và cố vấn muốn có công cụ tư vấn rõ ràng", en: "Parents and counselors looking for a clear guidance tool" },
+          { icon: "bi-shield-lock-fill", vi: "Quản trị viên muốn quản lý dữ liệu ngành, trường và phiên tư vấn", en: "Administrators managing majors, universities, and consultation sessions" }
         ]
       },
       keyFeatures: {
         titleVi: "Tính năng chính",
         titleEn: "Key Features",
         items: [
-          { icon: "bi-chat-dots-fill", vi: "AI Chat Advisor tư vấn nghề nghiệp và chọn trường theo ngữ cảnh", en: "AI Chat Advisor for career and university recommendations" },
-          { icon: "bi-book-half", vi: "Quản lý ngành học với thông tin lương, tỷ lệ việc làm và trường tốt", en: "Manage majors with salary, employability, and top university data" },
-          { icon: "bi-buildings-fill", vi: "Thư mục trường đại học với điểm chuẩn, học phí và thông tin chi tiết", en: "University directory with entrance scores, tuition, and detailed info" },
-          { icon: "bi-graph-up-arrow", vi: "Dashboard quản trị thống kê người dùng, ngành học và phiên tư vấn", en: "Admin dashboard with user, major, and consultation statistics" },
-          { icon: "bi-translate", vi: "Hỗ trợ đa ngôn ngữ Tiếng Việt và Tiếng Anh", en: "Supports Vietnamese and English multilingual experience" },
-          { icon: "bi-stars", vi: "Giao diện hiện đại theo phong cách dark mode và glassmorphism", en: "Modern UI with dark mode and glassmorphism style" }
+          { icon: "bi-chat-dots-fill", vi: "AI advisor trả lời theo ngữ cảnh và gợi ý nghề nghiệp phù hợp", en: "AI advisor provides contextual career recommendations" },
+          { icon: "bi-book-half", vi: "Danh mục ngành học có thông tin lương, tỷ lệ việc làm và trường phù hợp", en: "Major directory with salary, employability, and school data" },
+          { icon: "bi-buildings-fill", vi: "Thư mục trường đại học với điểm chuẩn, học phí và thông tin chi tiết", en: "University directory with admission scores, tuition, and detailed information" },
+          { icon: "bi-graph-up-arrow", vi: "Dashboard quản trị thống kê người dùng, ngành học và phiên tư vấn", en: "Admin dashboard with statistics on users, majors, and consultations" },
+          { icon: "bi-translate", vi: "Hỗ trợ đa ngôn ngữ tiếng Việt và tiếng Anh", en: "Supports Vietnamese and English multilingual experience" },
+          { icon: "bi-stars", vi: "Giao diện hiện đại theo phong cách dark mode và glassmorphism", en: "Modern UI with dark mode and glassmorphism styling" }
         ]
       },
       userFlow: {
         titleVi: "Luồng người dùng",
         titleEn: "User Flow",
         flowVi: "Đăng nhập → Nhập thông tin → Nhận tư vấn AI → Xem ngành & trường → Lên lộ trình học tập",
-        flowEn: "Login → Enter information → Receive AI guidance → View majors & universities → Build study plan",
-        noteVi: "— Quy trình được thiết kế để học sinh có thể hiểu rõ và đưa ra quyết định nhanh hơn.",
-        noteEn: "— The flow is designed to help students understand options and make decisions more confidently."
+        flowEn: "Login → Enter information → Receive AI guidance → View majors & universities → Build a study plan",
+        noteVi: "— Quy trình được thiết kế để học sinh hiểu rõ lựa chọn và đưa ra quyết định nhanh hơn.",
+        noteEn: "— The flow is designed to make choices clearer and decisions faster for students."
       },
       uiUxDesign: {
         titleVi: "Thiết kế giao diện & UI/UX",
         titleEn: "Interface Design & UI/UX",
         leftItems: [
-          { icon: "bi-brightness-high", vi: "Giao diện tối và kính trong suốt tạo cảm giác hiện đại", en: "Dark and glassy interface for a futuristic look" },
-          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng cho chat, trường học và ngành học", en: "Clear layout for chat, universities, and majors" },
-          { icon: "bi-phone", vi: "Tối ưu trải nghiệm trên cả desktop và mobile", en: "Optimized experience on desktop and mobile" }
+          { icon: "bi-brightness-high", vi: "Giao diện tối và trong suốt, tạo cảm giác hiện đại và chuyên nghiệp", en: "Dark and glassy interface for a modern, professional feel" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng cho chat, danh mục ngành học và trường học", en: "Clear layout for chat, majors, and universities" },
+          { icon: "bi-phone", vi: "Tối ưu trải nghiệm trên cả desktop và mobile", en: "Optimized experience across desktop and mobile" }
         ],
         rightItems: [
-          { icon: "bi-type", vi: "Typography rõ ràng và dễ đọc, phù hợp học sinh", en: "Readable and student-friendly typography" },
-          { icon: "bi-palette-fill", vi: "Màu sắc hiện đại, nhẹ nhàng và công nghệ cao", en: "Modern, calm, and tech-inspired palettes" },
-          { icon: "bi-magic", vi: "Hiệu ứng mượt mà, cảm giác tương tác cao", en: "Smooth animations and polished interactions" }
+          { icon: "bi-type", vi: "Typography rõ ràng, dễ đọc và phù hợp với học sinh", en: "Readable typography designed for students" },
+          { icon: "bi-palette-fill", vi: "Màu sắc hiện đại, tươi sáng và công nghệ cao", en: "Modern, bright, and technology-inspired colors" },
+          { icon: "bi-magic", vi: "Hiệu ứng mượt mà, tăng cảm giác tương tác và thuận tiện", en: "Smooth interactions that feel polished and intuitive" }
         ]
       },
       tools: [
@@ -163,13 +163,13 @@ export default [
     id: "tvd",
     title: "TVD",
     category: "filter-web",
-    image: "assets/img/portfolio/nongsannuirung.svg",
+    image: "assets/img/portfolio/tvd.svg",
     github: "https://github.com/vti0209/tvd-course-management.git",
     demo: "https://github.com/vti0209/tvd-course-management.git",
     tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "Eloquent"],
     year: 2025,
-    categoryVi: "Hệ thống quản lý khóa học",
-    categoryEn: "Course Management System",
+    categoryVi: "Website",
+    categoryEn: "Website",
     titleVi: "TVD - Hệ thống quản lý khóa học trực tuyến",
     titleEn: "TVD - Online Course Management System",
     descriptionVi: "Hệ thống quản lý khóa học trực tuyến cho phép người dùng đăng ký tài khoản, đăng ký khóa học, theo dõi tiến trình và quản trị viên quản lý dữ liệu khóa học và người dùng.",
@@ -179,9 +179,9 @@ export default [
       title: "TVD - Online Course Management System",
       demoText: "Xem dự án trên GitHub",
       showcaseImages: [
-        "assets/img/portfolio/nongsannuirung.svg",
-        "assets/img/portfolio/nongsannuirung.svg",
-        "assets/img/portfolio/nongsannuirung.svg"
+        "assets/img/portfolio/tvd.svg",
+        "assets/img/portfolio/tvd.svg",
+        "assets/img/portfolio/tvd.svg"
       ],
       overview: {
         vi: "<strong>TVD</strong> là hệ thống quản lý khóa học trực tuyến được xây dựng theo mô hình MVC bằng Laravel. Dự án hỗ trợ các vai trò người dùng và quản trị viên, cho phép đăng ký khóa học, quản lý khóa học, quản lý người dùng và thống kê dữ liệu một cách rõ ràng.",
@@ -236,6 +236,84 @@ export default [
         { icon: "bi-bootstrap", label: "Bootstrap / CSS" },
         { icon: "bi-code-square", label: "JavaScript" },
         { icon: "bi-person-gear", label: "Laravel Auth" }
+      ]
+    }
+  },
+  {
+    id: "event-app",
+    title: "Event App",
+    category: "filter-app",
+    image: "assets/img/portfolio/event-app.svg",
+    github: "https://github.com/vti0209/event-app.git",
+    demo: "https://github.com/vti0209/event-app.git",
+    tech: ["Android", "Java", "SQLite", "Material Design"],
+    year: 2025,
+    categoryVi: "App",
+    categoryEn: "App",
+    titleVi: "Event App - Ứng dụng quản lý sự kiện trên Android",
+    titleEn: "Event App - Android Event Management App",
+    descriptionVi: "Ứng dụng di động giúp người dùng tạo, quản lý và theo dõi các sự kiện, lịch trình và hoạt động một cách thuận tiện.",
+    descriptionEn: "A mobile app that helps users create, manage, and track events, schedules, and activities conveniently.",
+    hasRichDetails: true,
+    details: {
+      title: "Event App - Android Event Management App",
+      demoText: "Xem dự án trên GitHub",
+      showcaseImages: [
+        "assets/img/portfolio/event-app.svg",
+        "assets/img/portfolio/event-app.svg",
+        "assets/img/portfolio/event-app.svg"
+      ],
+      overview: {
+        vi: "<strong>Event App</strong> là ứng dụng Android giúp quản lý sự kiện, lịch trình và hoạt động với dữ liệu cục bộ lưu trữ bằng SQLite. Dự án tập trung vào trải nghiệm người dùng đơn giản, nhanh và dễ sử dụng.",
+        en: "<strong>Event App</strong> is an Android application for managing events, schedules, and activities using local SQLite storage. The project focuses on a simple, fast, and intuitive user experience."
+      },
+      targetUsers: {
+        titleVi: "Đối tượng người dùng",
+        titleEn: "Target Users",
+        items: [
+          { icon: "bi-calendar2-event-fill", vi: "Người dùng cần theo dõi lịch trình và sự kiện cá nhân", en: "Users who need to track personal schedules and events" },
+          { icon: "bi-people-fill", vi: "Nhóm tổ chức sự kiện và hoạt động", en: "Event organizers and activity groups" },
+          { icon: "bi-phone", vi: "Người dùng muốn một ứng dụng nhẹ và tiện lợi trên điện thoại", en: "Users who want a lightweight and convenient mobile app" }
+        ]
+      },
+      keyFeatures: {
+        titleVi: "Tính năng chính",
+        titleEn: "Key Features",
+        items: [
+          { icon: "bi-plus-circle-fill", vi: "Thêm, chỉnh sửa và xóa sự kiện", en: "Create, edit, and delete events" },
+          { icon: "bi-calendar3", vi: "Xem lịch trình theo ngày và danh sách sự kiện", en: "View schedules by day and event list" },
+          { icon: "bi-database-fill", vi: "Lưu trữ dữ liệu cục bộ bằng SQLite", en: "Store data locally with SQLite" },
+          { icon: "bi-bell-fill", vi: "Thông báo nhắc sự kiện sắp tới", en: "Notify upcoming events" },
+          { icon: "bi-shield-lock-fill", vi: "Bảo vệ dữ liệu và giao diện dễ sử dụng", en: "Protect data with a simple and friendly interface" }
+        ]
+      },
+      userFlow: {
+        titleVi: "Luồng người dùng",
+        titleEn: "User Flow",
+        flowVi: "Mở ứng dụng → Tạo sự kiện → Cập nhật lịch trình → Theo dõi và nhắc nhở",
+        flowEn: "Open app → Create event → Update schedule → Track and receive reminders",
+        noteVi: "— Ứng dụng được thiết kế để giúp người dùng quản lý sự kiện một cách trực quan, nhanh chóng và ít lỗi.",
+        noteEn: "— The app is designed to help users manage events visually, quickly, and with fewer errors."
+      },
+      uiUxDesign: {
+        titleVi: "Thiết kế giao diện & UI/UX",
+        titleEn: "Interface Design & UI/UX",
+        leftItems: [
+          { icon: "bi-phone", vi: "Giao diện phù hợp cho màn hình Android", en: "Interface suitable for Android screens" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục rõ ràng cho danh sách sự kiện và chi tiết", en: "Clear layout for event lists and details" },
+          { icon: "bi-lightning-fill", vi: "Tối ưu thao tác nhanh và mượt", en: "Optimized for fast and smooth interactions" }
+        ],
+        rightItems: [
+          { icon: "bi-palette-fill", vi: "Màu sắc ấm áp và hiện đại", en: "Warm and modern color palette" },
+          { icon: "bi-type", vi: "Typography đơn giản, dễ đọc", en: "Simple and readable typography" },
+          { icon: "bi-magic", vi: "Trải nghiệm người dùng tương tác rõ ràng và trực quan", en: "Clear and intuitive interactive experience" }
+        ]
+      },
+      tools: [
+        { icon: "bi-android2", label: "Android Studio" },
+        { icon: "bi-database-fill", label: "SQLite" },
+        { icon: "bi-code-square", label: "Java" },
+        { icon: "bi-brush-fill", label: "Material Design" }
       ]
     }
   }

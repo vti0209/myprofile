@@ -9,7 +9,7 @@ export class ProjectController {
     this.itemsPerPage = 3;
     this.currentPage = 1;
     this.filteredItems = [];
-    this.currentFilter = '*';
+    this.currentFilter = '.filter-web';
   }
 
   init() {
