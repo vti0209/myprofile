@@ -160,23 +160,23 @@ export default [
     }
   },
   {
-    id: "eventapp",
-    title: "Event App",
-    category: "filter-mobile",
+    id: "tvd",
+    title: "TVD",
+    category: "filter-web",
     image: "assets/img/portfolio/nongsannuirung.svg",
-    github: "https://github.com/vti0209/Event_app.git",
-    demo: "https://github.com/vti0209/Event_app.git",
-    tech: ["Java", "XML", "SQLite", "Android Studio"],
+    github: "https://github.com/vti0209/tvd-course-management.git",
+    demo: "https://github.com/vti0209/tvd-course-management.git",
+    tech: ["Laravel", "PHP", "MySQL", "Bootstrap", "Eloquent"],
     year: 2025,
-    categoryVi: "Ứng dụng di động",
-    categoryEn: "Mobile App",
-    titleVi: "Event App - Ứng dụng quản lý sự kiện Android",
-    titleEn: "Event App - Android Event Management App",
-    descriptionVi: "Ứng dụng Android giúp người dùng đăng ký, đăng nhập, quản lý sự kiện, ghi chú và theo dõi các hoạt động sự kiện cục bộ bằng SQLite.",
-    descriptionEn: "An Android app that lets users register, log in, manage events, add notes, and track local event activities using SQLite.",
+    categoryVi: "Hệ thống quản lý khóa học",
+    categoryEn: "Course Management System",
+    titleVi: "TVD - Hệ thống quản lý khóa học trực tuyến",
+    titleEn: "TVD - Online Course Management System",
+    descriptionVi: "Hệ thống quản lý khóa học trực tuyến cho phép người dùng đăng ký tài khoản, đăng ký khóa học, theo dõi tiến trình và quản trị viên quản lý dữ liệu khóa học và người dùng.",
+    descriptionEn: "An online course management system that allows users to sign up, enroll in courses, track learning progress, and lets administrators manage courses and users.",
     hasRichDetails: true,
     details: {
-      title: "Event App - Android Event Management",
+      title: "TVD - Online Course Management System",
       demoText: "Xem dự án trên GitHub",
       showcaseImages: [
         "assets/img/portfolio/nongsannuirung.svg",
@@ -184,58 +184,58 @@ export default [
         "assets/img/portfolio/nongsannuirung.svg"
       ],
       overview: {
-        vi: "<strong>Event App</strong> là ứng dụng Android đơn giản được xây dựng để quản lý và hiển thị thông tin sự kiện. Ứng dụng hỗ trợ các thao tác CRUD cơ bản và lưu trữ dữ liệu cục bộ bằng SQLite, phù hợp cho việc học tập về lập trình di động.",
-        en: "<strong>Event App</strong> is a simple Android application designed to manage and display event information. It supports basic CRUD operations and local data storage with SQLite, making it suitable for learning Android development."
+        vi: "<strong>TVD</strong> là hệ thống quản lý khóa học trực tuyến được xây dựng theo mô hình MVC bằng Laravel. Dự án hỗ trợ các vai trò người dùng và quản trị viên, cho phép đăng ký khóa học, quản lý khóa học, quản lý người dùng và thống kê dữ liệu một cách rõ ràng.",
+        en: "<strong>TVD</strong> is an online course management system built with Laravel following the MVC architecture. It supports user and admin roles, course enrollment, course/user management, and clear data statistics."
       },
       targetUsers: {
         titleVi: "Đối tượng người dùng",
         titleEn: "Target Users",
         items: [
-          { icon: "bi-person-fill", vi: "Người dùng muốn quản lý lịch trình và sự kiện cá nhân", en: "Users wanting to manage personal schedules and events" },
-          { icon: "bi-phone-fill", vi: "Sinh viên học lập trình Android và cần một ứng dụng mẫu CRUD", en: "Students learning Android development and needing a CRUD sample app" },
-          { icon: "bi-shield-lock-fill", vi: "Người dùng cần đăng nhập, hồ sơ và ghi chú riêng cho từng sự kiện", en: "Users needing accounts, profile editing, and per-event notes" }
+          { icon: "bi-people-fill", vi: "Học viên cần đăng ký và theo dõi khóa học trực tuyến", en: "Learners who want to register and track online courses" },
+          { icon: "bi-person-badge-fill", vi: "Quản trị viên hỗ trợ quản lý khóa học và người dùng", en: "Administrators managing courses and users" },
+          { icon: "bi-mortarboard-fill", vi: "Đơn vị giáo dục hoặc trung tâm đào tạo cần hệ thống học trực tuyến", en: "Educational institutions or training centers needing an online learning system" }
         ]
       },
       keyFeatures: {
         titleVi: "Tính năng chính",
         titleEn: "Key Features",
         items: [
-          { icon: "bi-person-plus-fill", vi: "Đăng ký, đăng nhập, đăng xuất và chỉnh sửa hồ sơ", en: "Register, login, logout, and edit profile" },
-          { icon: "bi-calendar-event-fill", vi: "Xem tổng quan sự kiện, sự kiện sắp tới và đã qua", en: "View event overview, upcoming events, and past events" },
-          { icon: "bi-pencil-square", vi: "Thêm, cập nhật, xóa và theo dõi sự kiện", en: "Add, update, delete, and track events" },
-          { icon: "bi-journal-text", vi: "Thêm ghi chú cho từng sự kiện", en: "Add notes for each event" },
-          { icon: "bi-bell-fill", vi: "Thông báo cho các hành động người dùng", en: "Notifications for user actions" },
-          { icon: "bi-database-fill", vi: "Lưu trữ dữ liệu cục bộ bằng SQLite", en: "Store data locally using SQLite" }
+          { icon: "bi-person-plus-fill", vi: "Đăng ký tài khoản, đăng nhập và phân quyền User/Admin", en: "Register accounts, login, and manage User/Admin roles" },
+          { icon: "bi-book-half", vi: "Xem danh sách khóa học, tìm kiếm, lọc và xem chi tiết", en: "Browse courses, search, filter, and view details" },
+          { icon: "bi-journal-check", vi: "Đăng ký khóa học và xem khóa học đã đăng ký", en: "Enroll in courses and view enrolled courses" },
+          { icon: "bi-graph-up-arrow", vi: "Dashboard thống kê số lượng người dùng và khóa học", en: "Dashboard with user and course statistics" },
+          { icon: "bi-tools", vi: "Quản trị khóa học và người dùng bằng CRUD", en: "Manage courses and users through CRUD" },
+          { icon: "bi-file-earmark-richtext", vi: "Hỗ trợ phân trang, lọc danh mục và tìm kiếm dữ liệu", en: "Support pagination, category filters, and search" }
         ]
       },
       userFlow: {
         titleVi: "Luồng người dùng",
         titleEn: "User Flow",
-        flowVi: "Đăng nhập → Xem tổng quan → Quản lý sự kiện → Thêm ghi chú → Theo dõi thông báo",
-        flowEn: "Login → View overview → Manage events → Add notes → Track notifications",
-        noteVi: "— Ứng dụng được thiết kế để thao tác nhanh, dễ hiểu và phù hợp cho người mới học Android.",
-        noteEn: "— The app is designed to be simple, intuitive, and beginner-friendly for Android learners."
+        flowVi: "Đăng nhập → Xem khóa học → Đăng ký khóa học → Quản lý hồ sơ → Theo dõi các khóa đã tham gia",
+        flowEn: "Login → Browse courses → Enroll → Manage profile → Track enrolled courses",
+        noteVi: "— Mô hình được thiết kế để vừa thân thiện với người dùng vừa dễ mở rộng cho quản trị viên.",
+        noteEn: "— The system is designed to be user-friendly while remaining easy to expand for administrators."
       },
       uiUxDesign: {
         titleVi: "Thiết kế giao diện & UI/UX",
         titleEn: "Interface Design & UI/UX",
         leftItems: [
-          { icon: "bi-phone", vi: "Giao diện Android đơn giản, rõ ràng và dễ thao tác", en: "Simple, clear, and easy-to-use Android interface" },
-          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục phù hợp cho màn hình danh sách sự kiện và chi tiết", en: "Layout suited for event lists and detail screens" },
-          { icon: "bi-lightning-charge-fill", vi: "Tập trung vào trải nghiệm người dùng cơ bản và hiệu quả", en: "Focused on efficient and practical user experience" }
+          { icon: "bi-layout-text-window", vi: "Trang chủ, profile và my courses được thiết kế rõ ràng", en: "Home, profile, and my courses are laid out clearly" },
+          { icon: "bi-grid-3x3-gap-fill", vi: "Bố cục phù hợp cho danh sách khóa học và form đăng ký", en: "Layout suited to course lists and enrollment forms" },
+          { icon: "bi-phone", vi: "Tối ưu cho trải nghiệm người dùng trên màn hình web", en: "Optimized for web-based user experience" }
         ],
         rightItems: [
-          { icon: "bi-type", vi: "Typography rõ ràng, dễ đọc trên thiết bị di động", en: "Readable typography on mobile devices" },
-          { icon: "bi-palette-fill", vi: "Màu sắc nhẹ nhàng, phù hợp trải nghiệm quản lý thông tin", en: "Soft colors suitable for event management" },
-          { icon: "bi-magic", vi: "Tương tác cơ bản nhưng đủ tốt cho mục tiêu học tập", en: "Basic interactions that are sufficient for learning goals" }
+          { icon: "bi-type", vi: "Typography rõ ràng và dễ đọc cho nội dung khóa học", en: "Clear, readable typography for course content" },
+          { icon: "bi-palette-fill", vi: "Giao diện hiện đại với màu sắc hài hòa và dễ nhìn", en: "Modern interface with harmonious and readable colors" },
+          { icon: "bi-magic", vi: "Tạo trải nghiệm học tập trực tuyến mượt mà và chuyên nghiệp", en: "Creates a smooth and professional online learning experience" }
         ]
       },
       tools: [
-        { icon: "bi-android2", label: "Android Studio" },
-        { icon: "bi-code-square", label: "Java" },
-        { icon: "bi-file-earmark-code", label: "XML Layout" },
-        { icon: "bi-database-fill", label: "SQLite" },
-        { icon: "bi-phone-fill", label: "Mobile UI" }
+        { icon: "bi-laravel", label: "Laravel MVC" },
+        { icon: "bi-database-fill", label: "MySQL" },
+        { icon: "bi-bootstrap", label: "Bootstrap / CSS" },
+        { icon: "bi-code-square", label: "JavaScript" },
+        { icon: "bi-person-gear", label: "Laravel Auth" }
       ]
     }
   }
